@@ -3,6 +3,7 @@
   --color: #434455;
   --back-color: #2e2f42;
   --colors: #4d5ae5;
+  --paragrah: #f4f4fd;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -17,7 +18,7 @@ body {
 }
 .logotype {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -26,7 +27,7 @@ body {
 }
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -108,7 +109,7 @@ body {
   background-color: #f4f4fd;
 }
 .photo-card {
-  background-color: var(--brand-color);
+  background-color: #ffffff;
 }
 .logos {
   color: #f4f4fd;
@@ -127,4 +128,10 @@ body {
 .model-button:focus {
   color: var(--brand-color);
   background-color: #404bbf;
+}
+.sentence {
+  color: var(--paragrah);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
